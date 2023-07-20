@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random<br>
+            <span>
+                Password Generator 
+            </span>
+</h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="copyimage.svg" onclick="copyPassword()">
+        </div>
+        <button onclick="createPassword()"> Generate Password</button>
+    </div>
+    <script src="word.js"></script>
+</body>
+</html>
